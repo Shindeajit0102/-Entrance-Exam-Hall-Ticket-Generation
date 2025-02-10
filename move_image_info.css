@@ -1,0 +1,310 @@
+/* for mobile view */
+@media only screen   and (min-device-width : 360px)   and (max-device-width : 640px)  
+{ 
+   body{
+    background-color:  aqua;
+     overflow-y: scroll;
+     overflow: hidden;
+   }
+ 
+    
+  .set-application-from{
+    /* box-shadow: 1px 1px 1px 1px black; */
+    height: 100em;
+    width: 50em;
+    position: absolute;
+    top: 1em;
+    left: 8em;
+    background-color: aqua;
+  }
+  .set-application-from label{
+    color: black;
+    margin: 5em;
+    font-size: 25px;
+  }
+  .set-application-from input{
+     font-size: 20px;
+     border-radius: 8px;
+     height: 2em;
+     position: absolute;
+     left: 10em;
+  }
+.set-application-from button{
+    font-size: 30px;
+    width: 4em;
+}
+#submit{
+    border: none;
+     background-color: green;
+     position: absolute;
+     left: 13em;
+     top: 42em;
+}
+#back{
+    border: none;
+     background-color: rgb(197, 47, 30);
+     position: absolute;
+     left: 5em;
+     top: 42em;
+}
+
+.set-application-from select{
+    font-size: 20px;
+    position: absolute;
+    left: 10em;
+    width: 14em;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+}
+
+/* for desktop view */
+@media only screen   and (min-device-width : 800px)   and (max-device-width : 1624px)  
+{ 
+  body{
+    background:white;
+    overflow-y: hidden;
+    
+    overflow-x: hidden;
+  }
+  
+  .set-application-from{
+    height: 82em;
+    width: 50em;
+    position: absolute;
+    background-color: white;
+    top: 5em;
+    left: 25em;
+  }
+  .set-application-from select{
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right:none ;    
+
+  }
+  .set-application-from #l1{
+    color:black;
+    margin: 0.7em;
+    
+    position: relative;
+    left: -14em;
+    font-size: 25px;
+  }
+  .set-application-from #l2{
+    color: black;
+    margin: 0.7em;    
+    position: relative;
+    top: -23.1em;
+    left: 0em;
+    font-size: 25px;
+  }
+  .set-application-from #l3{
+    color: black;
+    margin: 0.6em;    
+    position: relative;
+    top: -46.1em;
+    left: 14em;
+    font-size: 25px;
+  }
+  .set-application-from #l4{
+    color: black;
+    margin: 0.5em;    
+    position: relative;
+    top: -64.5em;
+    left: 28em;
+    font-size: 25px;
+  }
+  .set-application-from input{
+     font-size: 20px;
+     border-radius: 1px;
+     position: absolute;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     background-color: white;
+     left: 10em;
+  }
+.set-application-from button{
+    font-size: 30px;
+    width: 5em;
+    margin: 8px;
+    padding: 5px;
+}
+#submit{
+    border: none;
+    color: white;
+     background-color: blue;
+     position: relative;
+     left: 21em;
+     top: -46em;
+}
+#submit:hover{
+   box-shadow: 3px 3px 3px 3px rgb(126, 216, 228);
+   
+}
+#back{
+    border: none;
+     background-color: rgb(197, 47, 30);
+     position: relative;
+     left: 20em;
+     top: -46em;
+}
+#back:hover{
+  box-shadow:3px 3px 3px 3px  rgb(247, 23, 23);
+}
+
+.set-application-from select{
+    font-size: 20px;
+    position: absolute;
+    left: 10em;
+    width: 13em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.warning{
+  position: relative;
+  top: -94.5em;
+  left: 45em;
+  width: 20em;
+  background-color: red;  
+  color: white;
+}
+.warning {
+   height: 10em;
+  background-color: rgb(243, 238, 238);
+  width: 9em;
+  position: relative;
+  left: 44.8em;
+  margin-top: -12em;
+ }
+}
+
+
+/* for desktop large screen size view */
+@media only screen   and (min-device-width : 1080px)   and (max-device-width : 1920px)  
+{ 
+  body{
+    background:white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .set-application-from{
+    height: 82em;
+    width: 50em;
+    position: absolute;
+    background-color: white;
+    top: 10em;
+    left: 35em;
+  }
+  .set-application-from select{
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right:none ;    
+
+  }
+  .set-application-from #l1{
+    color:black;
+    margin: 0.7em;
+    
+    position: relative;
+    left: -14em;
+    font-size: 25px;
+  }
+  .set-application-from #l2{
+    color: black;
+    margin: 0.7em;    
+    position: relative;
+    top: -22.6em;
+    left: 0em;
+    font-size: 25px;
+  }
+  .set-application-from #l3{
+    color: black;
+    margin: 0.6em;    
+    position: relative;
+    top: -45.1em;
+    left: 14em;
+    font-size: 25px;
+  }
+  .set-application-from #l4{
+    color: black;
+    margin: 0.5em;    
+    position: relative;
+    top: -63.1em;
+    left: 28em;
+    font-size: 25px;
+  }
+  .set-application-from input{
+     font-size: 20px;
+     border-radius: 1px;
+     position: absolute;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     background-color: white;
+     left: 10em;
+  }
+.set-application-from button{
+    font-size: 30px;
+    width: 5em;
+    margin: 8px;
+    padding: 5px;
+}
+#submit{
+    border: none;
+    color: white;
+     background-color: blue;
+     position: relative;
+     left: 21em;
+     top: -46em;
+}
+#submit:hover{
+   box-shadow: 3px 3px 3px 3px rgb(126, 216, 228);
+   
+}
+#back{
+    border: none;
+     background-color: rgb(197, 47, 30);
+     position: relative;
+     left: 20em;
+     top: -46em;
+}
+#back:hover{
+  box-shadow:3px 3px 3px 3px  rgb(247, 23, 23);
+}
+
+.set-application-from select{
+    font-size: 20px;
+    position: absolute;
+    left: 10em;
+    width: 13em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.warning{
+  position: relative;
+  top: -92.5em;
+  left: 45em;
+  width: 20em;
+  background-color: red;  
+  color: white;
+}
+.warning {
+   height: 10em;
+  background-color: rgb(243, 238, 238);
+  width: 9em;
+  position: relative;
+  left: 44.8em;
+  margin-top: -12em;
+ }
+}

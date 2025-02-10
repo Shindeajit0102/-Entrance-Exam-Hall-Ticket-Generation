@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(235, 255, 255));
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+   
+   }
+  .generate-set{
+     background:linear-gradient(to right,blue,white);;
+     position: relative;
+     top: -10em;
+     left: 46em;
+     height: 20em;
+      width: 47em;
+      border-radius: 1em 0em 0em 1em ;
+  }
+  label{
+    font-size: 20px;
+    margin: 10px;
+   position: relative;
+   top: 3em;
+   left: 5em;
+        }
+
+input{
+    font-size: 25px;
+    margin: 10px;
+    border: 2px solid rgb(27, 142, 52);
+    position: relative;
+    left: 3.9em;
+    top: 2.5em;
+}
+
+#next{
+     background: rgb(34, 17, 110);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     padding: 1em;
+     width: 10em;
+     margin-top:-1em;
+     margin-left: 25em;
+     font-size: 15px;
+}
+#next:hover{
+  background: rgb(22, 88, 22);
+}
+.setimg{
+    position: relative;
+    top: 14em;
+}
+#l2{
+  font-size: 25px;
+    margin: 10px;
+    position: relative;
+    left: 3.9em;
+    top: 2.5em;
+
+}
+#previous{
+    background: rgb(112, 23, 23);
+     border: none;
+     border-radius: 5px;
+     padding: 1em;
+     width: 10em;
+     margin-top:-3.2em;
+     margin-left: 37em;
+     font-size: 15px;
+}
+#previous:hover{
+  background-color: rgb(242, 12, 12);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+input:hover{
+    border-color:  rgb(155, 17, 136);
+}
+select:hover{
+    border-color:  rgb(155, 17, 136);
+
+}
+select{
+    border-color: green;
+}

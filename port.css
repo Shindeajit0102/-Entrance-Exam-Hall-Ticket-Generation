@@ -1,0 +1,109 @@
+#set-slider
+    {
+        position: relative;
+        top: 5em;
+       }
+    .set-company{
+      height: 20em;
+      box-shadow: 5px 5px 5px 5px grey;
+      background-color:beige;
+      position: relative;
+      top: 7em;
+      justify-content: center;
+      
+    }
+    #set-notify{
+      box-shadow: 2px 3px 2px 5px pink;
+      background-color:red ;
+      height: 2.5em;
+      position: relative;
+      top: 5.2em
+
+    }
+    table td{
+           padding-left: 5em;
+           padding-top:3em ;
+         justify-items: self-end;
+    }
+    .card{
+      background-color: black;
+      box-shadow: 10px 10px 10px 10px black;
+      position: relative;
+      top: 55em;
+      height: 23em;
+    }
+    .set-v-m{
+    position: relative;
+    background-color: grey;
+    box-shadow: 4px 4px 4px 4px black;
+    font-size: 30px;
+    height: 10em;
+    color: white;
+    padding-left: 2em;
+    padding-top: 1em;
+    top: -10em;
+    }
+    .accordion-body{
+      background-color:gray;
+      color: white;
+      font-size: 25px;
+    }
+    .set-btn{
+        color: rgb(239, 227, 227);
+        font-size: 30px;
+        height: 5em;
+        padding-top: 1.5em;
+         position: relative;
+         top: -9.5em;
+         padding-left: 18em;
+         box-shadow:4px 4px 4px 4px black; 
+         background-color: white;
+    }
+    .student-feedback h1,h2{
+      color: white;
+    }
+ 
+/* for mobile view */
+
+@media only screen   and (min-device-width : 360px)   and (max-device-width : 640px)  
+{
+  .student-feedback{
+    background-color: rgb(39, 198, 169);
+    height: 19em;
+    width: 100%;
+    position: absolute;
+    top: 70em;
+    box-shadow:4px 4px 4px 4px rgb(16, 165, 148); 
+
+  }
+  .student-feedback h1,h2{
+    padding-top: 0.6em;
+  }
+  .container-fluid,.offcanvas-title,.nav-link,.nav-link,.dropdown-item{
+    font-size: 35px;
+
+  }
+}
+
+/* for desktop view */
+@media only screen   and (min-device-width : 568px)   and (max-device-width : 1624px)  
+{ 
+
+  .student-feedback{
+    background-color: rgb(41, 217, 191);
+    height: 20em;
+    width: 100%;
+    position: absolute;
+    top: 74em;
+    box-shadow:4px 4px 4px 4px rgb(24, 112, 174); 
+
+  }
+  .student-feedback h1,h2{
+    padding-top: 0.8em;
+  }
+  .container-fluid,.offcanvas-title,.nav-link,.nav-link,.dropdown-item{
+    font-size: 30px;
+
+  }
+}
+   
